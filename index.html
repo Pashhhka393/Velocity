@@ -11,20 +11,20 @@
     <title>Velocity</title>
 </head>
 <body>
-    <header class="header">
+    <header id="header" class="header">
         <div class="container header__container">
             <h1 class="logo">Velocity</h1>
             <nav class="header__nav">
                 <ul>
-                    <li><a href="#!">Home</a></li>
-                    <li><a href="#!">Contact</a></li>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#footer">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
 
-    <main class="main">
+    <main id="main" class="main">
         <section class="welcome">
             <div class="container">
                 <h2 class="welcome__title">This is Velocity</h2>
@@ -66,6 +66,7 @@
             </div>
         </section>
 
+
         <section class="services common-section common-section--dark">
             <div class="container">
                 <div class="title-wrapper">
@@ -90,6 +91,109 @@
                 </div>
             </div>
         </section>
+
+
+        <section class="tab-section common-section">
+            <div class="container">
+                <div class="title-wrapper">
+                    <h3 class="title">Tab Section</h3>
+                    <p class="subtitle">This is some text inside of a div block.</p>
+                </div>
+
+                <div class="tabs">
+                    <div class="tabs__nav">
+                        <button class="active" type="button">Tab Button 1</button>
+                        <button type="button">Tab Button 2</button>
+                        <button type="button">Tab Button 3</button>
+                    </div>
+
+                    <div class="tabs__item">
+                        <img src="images/tab1.png" alt="">
+                        <h4>Some title Here</h4>
+
+                        <div class="tabs__desc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                        </div>    
+                    </div>
+
+                    <div class="tabs__item">
+                        <img src="images/tab2.jpg" alt="">
+                        <h4>Some title Here 2</h4>
+
+                        <div class="tabs__desc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                        </div>    
+                    </div>
+
+                    <div class="tabs__item">
+                        <img src="images/tab3.jpeg" alt="">
+                        <h4>Some title Here 3</h4>
+
+                        <div class="tabs__desc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer id="footer" class="footer">
+        <div class="footer__desc">
+            <div class="container footer__container-desc">
+                <div class="footer__about">
+                    <h4>about velocity</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                </div>
+
+                <div class="footer__links">
+                    <h4>useful links</h4>
+                    <ul>
+                        <li><a href="#">Phasellus gravida semper nisi</a></li>
+                        <li><a href="#">Suspendisse nisl elit</a></li>
+                        <li><a href="#">Dellentesque habitant morbi</a></li>
+                        <li><a href="#">Etiam sollicitudin ipsum</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__social">
+                    <h4>social</h4>
+                    <ul>
+                        <li>
+                            <img src="images/tb1.svg" alt="twitter">
+                            <a href="#">Twitter</a>
+                        </li>
+
+                        <li>
+                            <img src="images/tb2.svg" alt="Facebook">
+                            <a href="#">Facebook</a>
+                        </li>
+
+                        <li>
+                            <img src="images/tb3.svg" alt="Pinterest">
+                            <a href="#">Pinterest</a>
+                        </li>
+
+                        <li>
+                            <img src="images/tb4.svg" alt="Google">
+                            <a href="#">Google</a>
+                        </li>
+
+                        <li>
+                            <img src="images/tb5.svg" alt="Webflow">
+                            <a href="#">Webflow</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__copy">
+            <div class="container">
+                <p>Copyright Pashhhkaa. Made in VS Code.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
